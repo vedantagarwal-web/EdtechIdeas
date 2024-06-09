@@ -1,0 +1,19 @@
+NO STRANGER TO CONTRAST
+I’m no stranger to contrast. A Chinese American with accented Chinese, a Florida-born Texan, a first generation American with a British passport: no label fits me without a caveat. 
+
+But I’ve always strived to find connections among the dissimilar. In my home across the sea, although my relatives’ rapid Mandarin sails over my head, in them I recognize the same work ethic that carried my parents out of rural Shanghai to America, that fueled me through sweltering marching band practices and over caffeinated late nights. I even spend my free time doing nonograms, grid-based logic puzzles solved by using clues to fill in seemingly random pixels to create a picture.
+
+It started when I was a kid. One day, my dad captured my fickle kindergartner attention (a herculean feat) and taught me Sudoku. As he explained the rules, those mysterious scaffoldings of numbers I often saw on his computer screen transformed into complex structures of logic built by careful strategy.
+
+From then on, I wondered if I could uncover the hidden order behind other things in my life. In elementary school, I began to recognize patterns in the world around me: thin, dark clouds signaled rain, the moon changed shape every week, and the best snacks were the first to go. I wanted to know what unseen rules affected these things and how they worked. My parents, both pipeline engineers, encouraged this inquisitiveness and sometimes tried explaining to me how they solved puzzles in their own work. Although I didn’t understand the particulars, their analytical mindsets helped me muddle through math homework and optimize matches in Candy Crush.
+
+In high school, I studied by linking concepts across subjects as if my coursework was another puzzle to solve. PEMDAS helped me understand appositive phrases, and the catalysts for revolutions resembled chemical isotopes, nominally different with the same properties.
+
+As I grew older, my interests expanded to include the delicate systems of biology, the complexity of animation, and the nuances of language. Despite these subjects’ apparent dissimilarity, each provided fresh, fascinating perspectives on the world with approaches like color theory and evolution. I was (and remain) voracious for the new and unusual, spending hours entrenched in Wikipedia articles on obscure topics, i.e. classical ciphers or dragons, and analyzing absurdist YouTube videos. 
+
+Unsurprisingly, like pilot fish to their sharks, my career aspirations followed my varied passions: one day I wanted to be an illustrator, the next a biochemist, then a stand-up comedian. When it came to narrowing down the choices, narrowing down myself, I felt like nothing would satisfy my ever-fluctuating intellectual appetite. 
+
+But when I discovered programming, something seemed to settle. In computer science, I had found a field where I could be creative, explore a different type of language, and (yes) solve puzzles. Coding let me both analyze logic in its purest form and manipulate it to accomplish anything from a simple “print ‘hello world’” to creating functional games. Even when lines of red error messages fill my console, debugging offered me the same thrill as a particularly good puzzle. Now, when I see my buggy versions of Snake, Paint, and Pacman in my files, I’m filled paradoxically with both satisfaction and a restless itch to improve the code and write new, better programs.
+
+While to others my life may seem like a jumble of incompatible fragments, like a jigsaw puzzle, each piece connects to become something more. However, there are still missing pieces at the periphery: experiences to have, knowledge to gain, bad jokes to tell. Someday I hope to solve the unsolvable. But for now, I’ve got a nonogram with my name on it.
+

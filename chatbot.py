@@ -8,6 +8,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 import os
+import numpy as np
 
 # Load OpenAI API key from .env file
 load_dotenv()
@@ -19,7 +20,7 @@ if not openai_api_key:
 llm = ChatOpenAI(temperature=0.7, model_name='gpt-4')
 
 # Load and preprocess the college essay dataset
-essay_files = ['essay1.txt']  # List of essay file paths
+essay_files = ['essay1.txt', 'essay2.txt', 'essay3.txt', 'essay4.txt','essay5.txt', 'essay6.txt', 'essay7.txt', 'essay8.txt','essay9.txt']  # List of essay file paths
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 docs = []
 for essay_file in essay_files:
@@ -36,8 +37,8 @@ vectorstore = FAISS.from_documents(texts, embeddings)
 retriever = vectorstore.as_retriever()
 
 # Debate configurations
-max_rounds = 3
-num_debaters = 2
+max_rounds = 5
+num_debaters = 3
 
 # Topic generation prompt
 topic_prompt = PromptTemplate(
@@ -122,9 +123,9 @@ if st.button("Generate Essay") and all(user_background):
         debate_history = []
         for round in range(max_rounds):
             for i, debater in enumerate(debaters):
-                # Generate argument
-                argument = debater.predict(debater_prompt.format(topic=essay_topic, retrieved_documents=retrieved_docs_text, user_background=user_background_text))
-                debate_history.append(f"Debater {i+1}: {argument}")
+                # Generate argument as embeddings
+                argument_embeddings = debater.predict(debater_prompt.format(topic=essay_topic, retrieved_documents=retrieved_docs_text, user_background=user_background_text))
+                debate_history.append(f"Debater {i+1}: {argument_embeddings}")
 
             # Judge's discriminative evaluation
             debate_history_text = "\n".join(debate_history)
